@@ -4,5 +4,6 @@
 // See https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/#ql-tutorials.
 import tutorial
 
-from Person p
-select p
+from int x, int y
+where x = 6 and y = 7
+select x * y
